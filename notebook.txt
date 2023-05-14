@@ -1,0 +1,10 @@
+〇 ベクトルの定義
+vector<型名> 変数名(要素数,値)
+vector<vector<型名>> 変数名(要素数,値)　e.g. vector<vector<int>> v(h,vector<int>(w));
+
+〇 二次元配列への入力
+for(int i=0; i<h; i++){
+        for(int j=0; j<w; j++){
+            cin >> v.at(i).at(j)
+        }
+    }

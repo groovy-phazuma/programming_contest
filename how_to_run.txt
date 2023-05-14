@@ -1,0 +1,8 @@
+1. 実行ファイルを格納するディレクトリに移動
+cd C:\github\programming_contest\AtCoder\Typical_90\004
+
+2. コンパイル
+g++ 004_main.cpp
+
+3. 外部ファイルを入力し実行
+a.exe < 004_sample.txt
