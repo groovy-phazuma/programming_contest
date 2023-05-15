@@ -21,6 +21,7 @@ int main(){
     for(int i = 0;i < q;i++){
         cin >> order[i][1] >> order[i][0];
     }
+
     for(int i=0; i<q; i++){
         cout << accum1[order[i][0]] - accum1[order[i][1]-1] << " " << accum2[order[i][0]] - accum2[order[i][1]-1] << " ";
     }
