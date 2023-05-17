@@ -6,3 +6,9 @@ g++ 004_main.cpp
 
 3. 外部ファイルを入力し実行
 a.exe < 004_sample.txt
+
+***
+230518
+gcc 12.2.0にupdate
+【参照】
+https://www.javadrive.jp/cstart/install/index6.html#section3
