@@ -17,3 +17,12 @@ v[i][0] == 1 ? accum1[i] += v[i][1] : accum2[i] += v[i][1];
 
 〇 文字列の格納
 string s[n]; // s(n)ではエラーが生じる
+
+〇 順序付き集合（pythonのリスト的な）
+set<string> namelist;
+namelist.count() // count
+namelist.insert() // add
+namelist.find() // 要素のイテレータ取得。存在しない場合はnamelist.find()==namelist.end()が返る
+namelist.erase() // remove
+set の中には、要素がソートされて格納されるので、set に要素を入れるだけで、実質的にソートが完了している事になる。
+ソートのためにこの方法を使うのは、vector にデータを入れて algorithm の sort() を使う直接的な方法と比較して、相当に動作が遅い。
