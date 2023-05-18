@@ -6,3 +6,4 @@
 - [022 Cubic Cake（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_v) (230518): 最大公約数を求めて、各辺における分割数を求める
 - [024 Select +／- One（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_x) (230516): 各要素の差分の絶対値の総和→Kとの差が偶数かどうか
 - [027 Sign Up Requests （★2）](https://atcoder.jp/contests/typical90/tasks/typical90_aa) (230517): 文字列の格納と重複判定
+- [055 Select 5（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_bc) (230518): 組み合わせ計算とあまり

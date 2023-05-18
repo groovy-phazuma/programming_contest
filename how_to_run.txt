@@ -12,3 +12,10 @@ a.exe < 004_sample.txt
 gcc 12.2.0にupdate
 【参照】
 https://www.javadrive.jp/cstart/install/index6.html#section3
+
+***
+C++ 17を使いたい。gcdモジュールが利用できる。
+https://cpprefjp.github.io/implementation.html
+GCC 7.1以降は、-std=c++17オプションを使用する。
+GNU拡張を有効にする-std=gnu++17オプションもある (旧オプションは非推奨)。
+GCC 11.1以降は、C++17がデフォルトとなる。デフォルトバージョンのコンパイルオプションは-std=gnu++17
