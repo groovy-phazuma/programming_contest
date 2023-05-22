@@ -31,3 +31,7 @@ set の中には、要素がソートされて格納されるので、set に要
 〇 deque
 deque<int> dq;
 dq[i] で i 番目（0オリジン）の要素を参照可能。
+
+〇 型変換
+stringの9とintの9は対応しない。
+string 9 - '0' = int 9　といったイメージ
