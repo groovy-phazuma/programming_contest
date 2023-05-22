@@ -35,3 +35,20 @@ dq[i] で i 番目（0オリジン）の要素を参照可能。
 〇 型変換
 stringの9とintの9は対応しない。
 string 9 - '0' = int 9　といったイメージ
+
+〇 bool演算子の活用
+1<<kで2**kを意味する。
+この辺りが参考になる。（https://drken1215.hatenablog.com/entry/2019/12/14/171657）
+if (!(bit & (1<<i))){ // ビットSにi番目のフラグが立っていない
+if ((bit & (1<<i))){ // ビットSにi番目のフラグが立っている
+
+〇 autoの活用
+右辺から型を推論する（auto x = 1）
+auto& はほぼ万能型
+
+
+for (auto c: S) {
+    if (c == '(') ++score;
+    else if (c == ')') --score;
+}
+のように、stringの各要素にアクセスできるのは便利。

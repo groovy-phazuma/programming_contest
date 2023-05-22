@@ -1,6 +1,7 @@
 # AtCoder
 
 ### Typical_90 (https://atcoder.jp/contests/typical90)
+- [002  Encyclopedia of Parentheses（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_b) (230522): bool演算子と全探索
 - [004 Cross Sum（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_d) (230515): 2次元配列の作成→(行の和)+(列の和)-(着目した点)
 - [010 Score Sum Queries（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_j) (230515): 累積を反映する配列の作成
 - [022 Cubic Cake（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_v) (230518): 最大公約数を求めて、各辺における分割数を求める
