@@ -52,3 +52,8 @@ for (auto c: S) {
     else if (c == ')') --score;
 }
 のように、stringの各要素にアクセスできるのは便利。
+
+〇 lower_bound()による最も近い値の取得
+lower_bound(v.begin(), v.end(), a);
+探索したい値以上が現れる最初の位置のイテレータを取得。
+int index = it - v.begin();
