@@ -65,3 +65,7 @@ int index = it - v.begin();
 〇 小数点の桁数の指定
 誤差の範囲の指定がある場合は、正しく出力できているかを以下のようにして確かめる。
 cout << setprecision(10) << ans << endl;
+
+〇 連番の数字で配列を初期化
+iota(v.begin(),v.end(), 1);が便利
+1 2 3 ... N
