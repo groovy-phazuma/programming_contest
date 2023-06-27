@@ -6,6 +6,7 @@
 - [007  007 - CP Classes（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_g) (230524): lower_bound()による探索したい値のイテレータを取得
 - [010 Score Sum Queries（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_j) (230515): 累積を反映する配列の作成
 - [014 We Used to Sing a Song Together（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_n) (230525): vecrorのソート
+- [016 Minimum Coins（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_p) (230627): 全探索の範囲を限定して高速化
 - [018 Statue of Chokudai（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_r) (230529): 3次元座標へのarctanθの適用
 - [020 Log Inequality（★3）](https://atcoder.jp/contests/typical90/tasks/typical90_t) (230530): 対数関数をimportすると誤差で不正答
 - [022 Cubic Cake（★2）](https://atcoder.jp/contests/typical90/tasks/typical90_v) (230518): 最大公約数を求めて、各辺における分割数を求める

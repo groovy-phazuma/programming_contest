@@ -17,6 +17,9 @@ v[i][j]でもv.at(i).at(j)でも同じ。前者はエラーメッセージが出
 e.g.
 v[i][0] == 1 ? accum1[i] += v[i][1] : accum2[i] += v[i][1];
 
+〇 if文複数条件
+if (tmp%c==0 || tmp>n){}
+
 〇 文字列の格納
 string s[n]; // s(n)ではエラーが生じる
 
@@ -46,7 +49,6 @@ if ((bit & (1<<i))){ // ビットSにi番目のフラグが立っている
 〇 autoの活用
 右辺から型を推論する（auto x = 1）
 auto& はほぼ万能型
-
 
 for (auto c: S) {
     if (c == '(') ++score;
